@@ -1,0 +1,39 @@
+{
+  "name": "application",
+  "description": "Configures nginx/Passenger stack for Capistrano deployments",
+  "long_description": "",
+  "maintainer": "Freeport Metrics",
+  "maintainer_email": "info@freeportmetrics.com",
+  "license": "MIT",
+  "platforms": {
+    "ubuntu": [
+
+    ],
+    "debian": [
+
+    ]
+  },
+  "dependencies": {
+    "passenger": [
+
+    ]
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "groupings": {
+  },
+  "recipes": {
+    "application::passenger": "Configures Rack-based application for nginx/Passenger stack"
+  },
+  "version": "0.0.1"
+}

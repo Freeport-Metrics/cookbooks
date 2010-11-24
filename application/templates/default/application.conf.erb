@@ -1,0 +1,7 @@
+server {
+  listen 80;
+  root <%= @application_path %>/current/public;
+
+  rails_env <%= @environment %>;
+  passenger_enabled on;
+}
