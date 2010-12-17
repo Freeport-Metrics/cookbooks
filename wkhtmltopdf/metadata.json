@@ -1,0 +1,36 @@
+{
+  "name": "wkhtmltopdf",
+  "description": "Installs wkhtmltopdf package",
+  "long_description": "",
+  "maintainer": "Freeport Metrics",
+  "maintainer_email": "info@freeportmetrics.com",
+  "license": "MIT",
+  "platforms": {
+    "ubuntu": [
+
+    ],
+    "debian": [
+
+    ]
+  },
+  "dependencies": {
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "groupings": {
+  },
+  "recipes": {
+    "wkhtmltopdf::install": "Installs wkhtmltopdf package"
+  },
+  "version": "0.0.1"
+}
