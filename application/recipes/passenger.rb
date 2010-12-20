@@ -12,8 +12,8 @@ template "#{nginx_path}/conf/sites.d/#{node[:application][:passenger][:applicati
     :application_path => node[:application][:passenger][:application_path],
     :environment => node[:application][:passenger][:environment]
   )
-end
 
-service "passenger" do
-  action [:restart]
+  service "passenger" do
+    action [:restart]
+  end
 end
