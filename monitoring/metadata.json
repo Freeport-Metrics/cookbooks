@@ -1,0 +1,39 @@
+{
+  "name": "monitoring",
+  "description": "Configures monitoring templates for Monit",
+  "long_description": "",
+  "maintainer": "Freeport Metrics",
+  "maintainer_email": "info@freeportmetrics.com",
+  "license": "MIT",
+  "platforms": {
+    "ubuntu": [
+
+    ],
+    "debian": [
+
+    ]
+  },
+  "dependencies": {
+    "monit": [
+
+    ]
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "groupings": {
+  },
+  "recipes": {
+    "monitoring::mysql": "Configures MySQL template for Monit"
+  },
+  "version": "0.0.1"
+}

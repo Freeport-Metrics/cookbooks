@@ -9,3 +9,7 @@ Configures nginx/Passenger stack for Capistrano deployments.
 wkhtmltopdf
 -----------
 Installs wkhtmltopdf package.
+
+monitoring
+----------
+Configures Monit to monitor various services.
