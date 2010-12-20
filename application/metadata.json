@@ -35,5 +35,5 @@
   "recipes": {
     "application::passenger": "Configures Rack-based application for nginx/Passenger stack"
   },
-  "version": "0.0.1"
+  "version": "1.0.1"
 }
