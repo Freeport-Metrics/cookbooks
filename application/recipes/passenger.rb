@@ -13,7 +13,5 @@ template "#{nginx_path}/conf/sites.d/#{node[:application][:passenger][:applicati
     :environment => node[:application][:passenger][:environment]
   )
 
-  service "passenger" do
-    action [:restart]
-  end
+  notifies :reload, 'service[passenger]'
 end
