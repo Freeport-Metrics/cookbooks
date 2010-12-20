@@ -2,7 +2,7 @@ maintainer       "Freeport Metrics"
 maintainer_email "info@freeportmetrics.com"
 license          "MIT"
 description      "Configures nginx/Passenger stack for Capistrano deployments"
-version          "0.0.1"
+version          "0.0.2"
 depends          "passenger"
 
 recipe           "application::passenger", "Configures Rack-based application for nginx/Passenger stack"
