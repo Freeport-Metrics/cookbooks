@@ -33,7 +33,8 @@
   "groupings": {
   },
   "recipes": {
-    "monitoring::mysql": "Configures MySQL template for Monit"
+    "monitoring::mysql": "Configures MySQL template for Monit",
+    "monitoring::nginx": "Configures MySQL template for nginx/Passenger"
   },
-  "version": "0.0.1"
+  "version": "0.0.2"
 }

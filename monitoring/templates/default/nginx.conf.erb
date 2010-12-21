@@ -1,0 +1,4 @@
+check process nginx with pidfile /opt/local/nginx/nginx.pid
+  group application
+  start program = "/usr/sbin/service passenger start"
+  stop program = "/usr/sbin/service passenger stop"
